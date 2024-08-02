@@ -46,7 +46,7 @@ def upload_file():
                     "original": word,
                     "translate": translated_word,
                     "context": subtitle.text,
-                    "count": word_count[word],  # Количество повторений слова
+                    "count": word_count[word], 
                 })
                 id_counter += 1
 
